@@ -6,13 +6,17 @@ Python >3.10;
 requests;
 windows-curses;
 
-## INSTALLATION AND STARTUP
+## Description
+
+An application to send out discord messages in preset sequence as a dialogue. For anti-spam testing and server administration training.
+
+## Installation and startup
 1. Download python, most importantly include PATH variables when [installing](https://tutorial.djangogirls.org/en/python_installation/)
 2. Download main.py and disSendClass.py from github and put them in the same folder.
 3. If python is installed correctly, write commands "pip install windows-curses" and "pip install requests" in cmd.
 4. Go to the bot folder via cmd and type "python main.py"
 
-## USAGE
+## Usage
 - WARNING it is desirable to run cmd in full screen to avoid unnecessary errors.
 - fill in the cfg file for each conversation according to the example, it is possible to specify the execution queue with a SPACE.
 - use the up and down arrows to navigate between conversations
